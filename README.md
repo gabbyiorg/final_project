@@ -1,4 +1,5 @@
 Variant finder.
+
 This program will read in either a table or a text insert of your interest.
 It will scan the table or the text to find c. or p. names of variants.
 It will then grab those names and present the full name and from it extract the gene in which the variant has been reported, the base change position, the codon position, the Wildtype Seq(or base), the variant seq(base), Wildtype AA, and Variant AA.
@@ -12,9 +13,13 @@ AA = amino acids
  Amino acids are the building blocks from which proteins are constructed. These organic compounds are coded by a triplet of DNA bases. There are 20 of them that are coded by a genetic sequences.
           
    Arginine        R
+
    Asparagine      N
+
    Aspartic acid   D
+
    Cysteine        C
+
    Glutamic acid   E
    Glutamine       Q
    Glycine         G
