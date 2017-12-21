@@ -13,13 +13,9 @@ AA = amino acids
  Amino acids are the building blocks from which proteins are constructed. These organic compounds are coded by a triplet of DNA bases. There are 20 of them that are coded by a genetic sequences.
           
    Arginine        R
-
    Asparagine      N
-
    Aspartic acid   D
-
    Cysteine        C
-
    Glutamic acid   E
    Glutamine       Q
    Glycine         G
