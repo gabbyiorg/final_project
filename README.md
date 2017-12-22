@@ -100,6 +100,7 @@ Variant: An alteration in the most common DNA base(s) sequence.
 
 ## Example of an initial table:
 
-![alt text](screenshots/filename.png "Description goes here")
+![ini_table](https://user-images.githubusercontent.com/29233838/34282672-914d37ae-e684-11e7-8bc0-ba9a70f81d4d.JPG)
+
 
 ## Example of a final table:
