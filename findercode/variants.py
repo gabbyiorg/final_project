@@ -21,7 +21,7 @@ class GetVariants(dict):
     def __str__(self):
         keys = list(self.keys())
         keys.sort()
-        tmp = "No. of valid variants to work with:\n"
+        tmp = "Variant types:\n"
         for key in keys:
             tmp = tmp + "%s: %s\n"%(key, len(self[key]))
         return tmp
@@ -59,13 +59,36 @@ class SepGroups (dict):
     def __str__(self):
         keys = list(self.keys())
         keys.sort()
-        tmp = "No. of variants found per Group:\n"
+        tmp = "No. of variants found per Group (name components):\n"
         for key in keys:
             tmp = tmp + "%s: %s\n"%(key, len(self[key]))
         return tmp
     
 
-
+    
+    
+class ConstFullName(dict):
+    
+    """
+    A class to construct variants full names
+    
+    """
+    def __init__(self, variant_types3=None):
+        if variant_types3 == None:
+            super(ConstFullName, self).__init__([("pfullname", []), 
+                                            ("snv_vnt_fullname", []), 
+                                            ("pfullnameFS", []), 
+                                            ("vnt_fullnameFS", [])])
+    def __str__(self):
+        keys = list(self.keys())
+        keys.sort()
+        tmp = "Variant names' types:\n"
+        for key in keys:
+            tmp = tmp + "%s: %s\n"%(key, len(self[key]))
+        return tmp
+    
+    
+    
     
     
 class Variant(object):

@@ -10,7 +10,7 @@ import re
 
 def get_variant_data(df):
     """
-    This function selects the variants we are going to work on
+    This function selects the variants we are going to work on.
     
     """
     v = GetVariants()
@@ -61,7 +61,7 @@ def get_variant_data(df):
     
 def subset_dataframe(df, v):
     """
-    This function creates 3 databases from the subset of variants selected
+    This function creates 3 databases from the subset of variants selected.
     
     """
     

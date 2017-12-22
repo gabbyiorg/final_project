@@ -2,7 +2,7 @@
 A module with a function to obtain the name of the excel table from the scientific paper;
 this is where the data to be manipulated is found. 
 
-It also contains a function to read in the initial excel table.
+It also contains a function to read-in the initial excel table.
 The table is manipulated and converted into a pandas dataframe.
 
 Copyright Gabby Iorg

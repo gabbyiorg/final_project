@@ -6,4 +6,4 @@ Copyright Gabby Iorg
 """
 
 
-__all__ = ["aatrans", "tabletrans", "variants", "filename", "subset", "get_groups", ]
+__all__ = ["vnt_functions", "variants", "filename", "subset", "get_groups", ]

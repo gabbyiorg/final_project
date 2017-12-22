@@ -13,6 +13,11 @@ import re
 
 
 def get_groups(df1, df2, df3):
+    """ 
+    This function separates all the different regex groups. 
+    It parses through the subset dataframes and captures variants and then separates the groups (which are the name components).
+    
+    """
     s = SepGroups()
     print(type(s))
 
