@@ -10,7 +10,7 @@ This program will read in an excel table with variants' names found (mostly) in 
 It will scan the table to find c. or p. names of variants.
 It will then grab those rows in which variant names are found and manipulate them to present a final pandas dataframe with: the full name in HGVS nomenclature standards, the gene in which the variant has been reported, the base change position, the codon position, the Wildtype Seq(or base), the variant seq(base), Wildtype AA, and Variant AA.
 
-The final aim is to create data permanence by connectting to your database (e.g. SQLite) and store the separated elements in there. 
+The final aim is to create data permanence by connecting to your database (e.g. SQLite) and store the separated elements in there. 
 
 There are two classes to put a spot light or keep track of the number of variants you are currently working on.  
 And there is a graph which will separate the variants by gene and give you a visual representation of the amount of variants found per gene in a given paper. 
