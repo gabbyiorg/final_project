@@ -1,6 +1,6 @@
 """
 
-A module that contains a translator for Amino Acids' single letter code to three letter code
+A module that contains a translator for Amino Acids' single letter code to three letter code.
 
 Copyright Gabby Iorg
 
