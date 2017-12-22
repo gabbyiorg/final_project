@@ -33,7 +33,7 @@ The findercode package has five files:
 - filename.py. A module with a functions to obtain from the user the initial excel table from the scientific paper.
 - subset.py. Contains 2 functions to create 3 new dataframes for the 3 different kind of variants this program handles.
 - get_groups.py. A module that contains a function to separate all my groups from the regex group names.
-- aatrans.py. A module that contains a translator for Amino Acids' single letter code to three letter code.
+- vnt_functions.py. A module that contains a translator for Amino Acids' single letter code to three letter code; a text "cleaner"; and a graphing function.
 - variants.py. This module holds 4 classes that define most of the program's functionality.   
 
 ## Background information: 
