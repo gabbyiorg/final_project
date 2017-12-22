@@ -104,3 +104,5 @@ Variant: An alteration in the most common DNA base(s) sequence.
 
 
 ## Example of a final table:
+
+![fin_table](https://user-images.githubusercontent.com/29233838/34282745-12ccf508-e685-11e7-94ed-dc38710412a4.JPG)
