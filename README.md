@@ -1,6 +1,6 @@
 # Variant Finder
 
-Variant Finder is a Python script designed to manipulate text with the use of regex and pandas.
+Variant Finder is a jupyter notebook with a Python script designed to manipulate text with the use of regex and pandas.
 
 The package is maintained by Gabby Iorg at the University of Utah.
 
@@ -8,16 +8,16 @@ The package is maintained by Gabby Iorg at the University of Utah.
 
 This program will read in an excel table with variants' names found (mostly) in supplemental material from scientific literature.
 It will scan the table to find c. or p. names of variants.
-It will then grab those rows in which variant names are found and manipulate them to present a final pandas dataframe with: the full name in HGVS nomenclature standards, the gene in which the variant has been reported, the base change position, the codon position, the Wildtype Seq(or base), the variant seq(base), Wildtype AA, and Variant AA.
+It will then grab those rows in which variant names are found and manipulate them to present a final pandas dataframe with: the full name in compliance with HGVS nomenclature standards, the gene in which the variant has been reported, the base change position, the codon position, the Wildtype Seq(or base), the variant seq(base), Wildtype AA, and Variant AA.
 
-The final aim is to create data permanence by connecting to your database (e.g. SQLite) and store the separated elements in there. 
+The final aim is to create data permanence by connecting to your database (e.g. SQLite) and store in there all the separated name components along with the variant full name. 
 
 There are two classes to put a spot light or keep track of the number of variants you are currently working on.  
-And there is a graph which will separate the variants by gene and give you a visual representation of the amount of variants found per gene in a given paper. 
+And there is a graphing function which will generate a bar graph by separating the variants by gene and give you a visual representation of the amount of variants found per gene in a given paper. 
 
 ## Installation
 
-Download pyConTextNLP from GitHub at https://github.com/gabbyiorg/final_project.git
+Download Variant_Finder from GitHub at https://github.com/gabbyiorg/final_project.git
 
 Dependencies include
 - numpy
