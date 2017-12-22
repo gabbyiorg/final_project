@@ -11,7 +11,7 @@ Copyright Gabby Iorg
 
 import matplotlib.pyplot as plt; plt.rcdefaults()
 
-def AA_translator (oneAA=[]):
+def AA_translator(oneAA=[]):
     """
     oneAA: a list containing one letter amino acid codes (strings)
     Variants can also contain "*" which mean they code for a "stop" sequence
@@ -61,7 +61,7 @@ def graphing(data_fr):
     It takes a pandas dataframe as an argument and returns a bar graph
     """
     graphdb1 = data_fr.drop(["Wildtype_Amino_Acid", "Codon", "Variant_Amino_Acid", "Wildtype_Seq", "Cdna_Position_Number",
-                                         "Variant_Seq"], axis=1, inplace=False)
+                             "Variant_Seq"], axis=1, inplace=False)
     graphdb = graphdb1.groupby("Gene_Name").count()
     graphdb.columns = ['Variant_Count']
     graphdb.plot(kind='barh', title="No. of Variants found by Gene", color='pink')

@@ -7,8 +7,8 @@ Copyright Gabby Iorg
 # Separates all my groups into lists
 # Get codon
 
-from findercode.variants import SepGroups
 import re
+from findercode.variants import SepGroups
 
 
 
