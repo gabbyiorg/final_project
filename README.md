@@ -43,25 +43,25 @@ Base: Also known as Nucleobases, or nitrogenous bases or often simply bases, are
 AA = amino acids
  Amino acids are the building blocks from which proteins are constructed. These organic compounds are coded by a triplet of DNA bases. There are 20 of them that are coded by a genetic sequences.
           
-   Arginine        R
-   Asparagine      N
-   Aspartic acid   D
-   Cysteine        C
-   Glutamic acid   E
-   Glutamine       Q
-   Glycine         G
-   Histidine       H 
-   Isoleucine      I
-   Leucine         L 
-   Lysine          K
-   Methionine      M
-   Phenylalanine   F
-   Proline         P
-   Serine          S
-   Threonine       T
-   Tryptophan      W
-   Tyrosine        Y
-   Valine          V
+    Arginine        R
+    Asparagine      N
+    Aspartic acid   D
+    Cysteine        C
+    Glutamic acid   E
+    Glutamine       Q
+    Glycine         G
+    Histidine       H 
+    Isoleucine      I
+    Leucine         L 
+    Lysine          K
+    Methionine      M
+    Phenylalanine   F
+    Proline         P
+    Serine          S
+    Threonine       T
+    Tryptophan      W
+    Tyrosine        Y
+    Valine          V
 
 Codon: A unit that consists of three adjacent bases on a DNA molecule and that determines the position of a specific amino acid in a protein molecule during protein synthesis.
 
