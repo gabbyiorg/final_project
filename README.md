@@ -13,17 +13,23 @@ HGVS general recommendations*:
  - All variants should be described at the most basic level, the DNA level. Descriptions at the RNA and/or protein level may be given in addition.
  - All variants should be described in relation to an accepted reference sequence. 
  - A letter prefix should be used to indicate the type of reference sequence used. This program will only use c. and p. prefixes:
-  - “c.” for a coding DNA reference sequence
-  - “p.” for a protein reference sequence
+ 
+  -“c.” for a coding DNA reference sequence
+  
+  -“p.” for a protein reference sequence
   
    Other prefixes not used in Variant Finder are:
        - “g.” for a genomic reference sequence
        - “n.” for a non-coding DNA reference sequence
-       - “r.” for an RNA reference sequence (transcript)
+       - “r.” for an RNA reference sequence (transcript).
        
 - Descriptions at DNA and protein level are clearly different:
-       DNA-level 123456A>T: number(s) referring to the nucleotide(s) affected, nucleotides in CAPITALS using IUPAC-IUBMB assigned nucleotide symbols
-       Protein level Lys76Asn: the amino acid(s) affected in 3- or 1-letter followed by a number IUPAC-IUBMB assigned amino acid symbols ** three-letter amino acid code is preferred (see Standards)
+
+-DNA-level 123456A>T: number(s) referring to the nucleotide(s) affected, nucleotides in CAPITALS using IUPAC-IUBMB assigned nucleotide symbols.
+       
+-Protein level Lys76Asn: the amino acid(s) affected in 3- or 1-letter followed by a number IUPAC-IUBMB assigned amino acid symbols 
+    
+**three-letter amino acid code is preferred (see Standards)
 
 *More detail information about variant nomenclature can be found at [here](http://varnomen.hgvs.org/recommendations/general/)
 
